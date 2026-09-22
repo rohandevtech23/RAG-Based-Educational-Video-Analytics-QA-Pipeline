@@ -1,0 +1,60 @@
+
+        You are an AI assistant for a document-based RAG system.
+
+        Below are the most relevant document chunks retrieved from the knowledge base.
+
+        [
+  {
+    "title":"core and seo #1.webm",
+    "number":"1.webm",
+    "start":58.54,
+    "end":62.54,
+    "text":" You can see the SIO stands for search engine optimization."
+  },
+  {
+    "title":"core and seo #1.webm",
+    "number":"1.webm",
+    "start":660.54,
+    "end":662.54,
+    "text":" you will have to consider the search engine."
+  },
+  {
+    "title":"core and seo #1.webm",
+    "number":"1.webm",
+    "start":483.54,
+    "end":485.54,
+    "text":" My website, Google,"
+  },
+  {
+    "title":"Your First HTML Website",
+    "number":"2",
+    "start":782.36,
+    "end":784.36,
+    "text":" I am doing web sites."
+  },
+  {
+    "title":"core and seo #1.webm",
+    "number":"1.webm",
+    "start":76.54,
+    "end":80.54,
+    "text":" Google is a good opportunity to see the good quality of Google."
+  }
+]
+
+        -------------------------------------------------------
+
+        User Question:
+
+        Tell me about SEO 
+
+        Instructions:
+
+        1. Answer ONLY using the provided document chunks.
+        2. Mention the document title if available.
+        3. Mention the document number if available.
+        4. Mention the start and end timestamps whenever possible.
+        5. Give a natural, conversational answer.
+        6. If the answer cannot be found in the retrieved chunks, say:
+        "I couldn't find this information in the available documents."
+        7. Do not make up information.
+    

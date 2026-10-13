@@ -33,6 +33,7 @@ The system converts videos into transcripts, splits them into chunks, generates 
 - Reduce search time
 - Improve learning efficiency
 - Minimize hallucinations using RAG
+- Fast Response 
 
 # Architecture
                     Lecture Videos
